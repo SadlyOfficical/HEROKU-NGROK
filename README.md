@@ -15,7 +15,7 @@ $ heroku config:set NGROK_API_TOKEN=xxxxxx
 Next, add this buildpack to your app:
 
 ```
-$ heroku buildpacks:add jkutner/ngrok
+$ heroku buildpacks:add SadlyOfficical/HEROKU-NGROK
 ```
 
 Then add your primary buildpack. For example, if you are using Java:
